@@ -51,8 +51,8 @@ public class V1 extends JFrame {
 		contentPane.add(textField);
 		textField.setColumns(10);
 		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(264, 38, 89, 23);
-		contentPane.add(btnNewButton);
+		JButton btnAgregar = new JButton("Agregar");
+		btnAgregar.setBounds(264, 38, 89, 23);
+		contentPane.add(btnAgregar);
 	}
 }
