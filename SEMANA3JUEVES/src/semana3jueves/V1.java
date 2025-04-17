@@ -65,5 +65,11 @@ public class V1 extends JFrame {
 		textAreaParaCommit.setText("paraCommit");
 		textAreaParaCommit.setBounds(30, 114, 349, 138);
 		contentPane.add(textAreaParaCommit);
+		
+		JButton btnParaCommit = new JButton("BOTON ULTIMO");
+		btnParaCommit.setBounds(30, 77, 121, 23);
+		contentPane.add(btnParaCommit);
+		
+		//AGREGANDO UN BOTON :
 	}
 }
