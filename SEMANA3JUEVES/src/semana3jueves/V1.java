@@ -9,6 +9,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JTextArea;
 
 public class V1 extends JFrame {
 
@@ -56,7 +57,13 @@ public class V1 extends JFrame {
 		JButton btnCambio4 = new JButton("Cambio4");
 		btnCambio4.setBounds(264, 77, 89, 23);
 		contentPane.add(btnCambio4);
+		
+		
 		//CAMBIOS ABAJO:
-		//SIN NADA TODAVIA:
+		//CON CAMBIOS SE AGREGO TEXTAREA:
+		JTextArea textAreaParaCommit = new JTextArea();
+		textAreaParaCommit.setText("paraCommit");
+		textAreaParaCommit.setBounds(30, 114, 349, 138);
+		contentPane.add(textAreaParaCommit);
 	}
 }
