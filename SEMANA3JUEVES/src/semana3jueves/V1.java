@@ -54,5 +54,9 @@ public class V1 extends JFrame {
 		JButton btnAgregar = new JButton("Agregar");
 		btnAgregar.setBounds(264, 38, 89, 23);
 		contentPane.add(btnAgregar);
+		
+		JButton btnCambio4 = new JButton("Cambio4");
+		btnCambio4.setBounds(264, 77, 89, 23);
+		contentPane.add(btnCambio4);
 	}
 }
