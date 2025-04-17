@@ -41,11 +41,9 @@ public class V1 extends JFrame {
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
-		
 		JLabel lblNewLabel = new JLabel("Nombre :");
 		lblNewLabel.setBounds(30, 42, 49, 14);
 		contentPane.add(lblNewLabel);
-		
 		textField = new JTextField();
 		textField.setBounds(82, 40, 160, 17);
 		contentPane.add(textField);
@@ -58,5 +56,7 @@ public class V1 extends JFrame {
 		JButton btnCambio4 = new JButton("Cambio4");
 		btnCambio4.setBounds(264, 77, 89, 23);
 		contentPane.add(btnCambio4);
+		//CAMBIOS ABAJO:
+		//SIN NADA TODAVIA:
 	}
 }
